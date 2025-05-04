@@ -121,6 +121,42 @@ header {
   right: -12px;
 }
 
+/*Estilo adicionar carrinho*/
+
+.add-cart img {
+  background-color: #000;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.actions-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.decrease-quantity {
+  border: 1px solid #000;
+  padding: 1px 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.increase-quantity {
+  border: 1px solid #000;
+  padding: 1px 3px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.number-quantity {
+  font-size: 18px;
+}
+.card-new-products:hover .add-cart {
+  display: flex;
+}
+
 /* Estilo dos novos produtos */
 
 #new-products {
